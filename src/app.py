@@ -17,7 +17,7 @@ vertexai.init(project="useful-music-410216")
 
 TABLE_NAME = "houses"
 
-engine = create_engine("sqlite:///houses.db")
+engine = create_engine("sqlite:///house.db")
 
 
 def get_schema() -> str:
